@@ -13,7 +13,7 @@ public class BinarySearchGraph extends JFrame {
     public BinarySearchGraph() {
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
         int[] sizes = {10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000};
-        int target = -1; // Elemento que não está na lista
+        int target = -1;
 
         for (int size : sizes) {
             int[] array = new int[size];

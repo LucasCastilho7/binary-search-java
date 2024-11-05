@@ -35,12 +35,12 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         int[] sizes = {10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000};
-        int target = -1; // Elemento que não está na lista
+        int target = -1;
 
         for (int size : sizes) {
             int[] array = new int[size];
             for (int i = 0; i < size; i++) {
-                array[i] = i; // Preenche a lista com números ordenados de 0 a size-1
+                array[i] = i;
             }
 
             Result result = binarySearch(array, target);
